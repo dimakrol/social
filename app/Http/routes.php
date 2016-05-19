@@ -18,3 +18,5 @@ Route::get('/', 'HomeController@index');
  * Authentication
  */
 Route::get('/signup',  'AuthController@getSignup');
+
+Route::post('/signup',  'AuthController@postSignup');

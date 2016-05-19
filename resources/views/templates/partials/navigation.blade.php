@@ -1,7 +1,7 @@
 <nav class="navbar navbar-default" role="navigation">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">Social</a>
+            <a class="navbar-brand" href="{{ url('/') }}">Social</a>
         </div>
         <div class="collapse navbar-collapse">
         <!-- @if (Auth::check()) -->
