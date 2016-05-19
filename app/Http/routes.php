@@ -48,3 +48,13 @@ Route::get('/search',  'SearchController@getResults');
  * User profile
  */
 Route::get('/user/{username}', 'ProfileController@getProfile');
+
+Route::get('/profile/edit',  [
+    'uses' => 'ProfileController@getEdit',
+    'middleware' => 'auth'
+]);
+
+Route::post('/profile/edit',  [
+    'uses' => 'ProfileController@postEdit',
+    'middleware' => 'auth'
+]);
