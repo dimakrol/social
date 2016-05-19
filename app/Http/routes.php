@@ -43,3 +43,8 @@ Route::get('/signout',  'AuthController@getSignout');
  */
 
 Route::get('/search',  'SearchController@getResults');
+
+/**
+ * User profile
+ */
+Route::get('/user/{username}', 'ProfileController@getProfile');
