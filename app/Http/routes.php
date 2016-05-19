@@ -37,3 +37,9 @@ Route::post('/signin',  [
                 'middleware' => 'guest'
 ]);
 Route::get('/signout',  'AuthController@getSignout');
+
+/**
+ * Search
+ */
+
+Route::get('/search',  'SearchController@getResults');
