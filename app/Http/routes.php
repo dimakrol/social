@@ -17,6 +17,23 @@ Route::get('/', 'HomeController@index');
 /**
  * Authentication
  */
-Route::get('/signup',  'AuthController@getSignup');
+Route::get('/signup',  [
+                'uses' => 'AuthController@getSignup',
+                'middleware' => 'guest'
+]);
 
-Route::post('/signup',  'AuthController@postSignup');
+Route::post('/signup',  [
+                'uses' => 'AuthController@postSignup',
+                'middleware' => 'guest'
+]);
+
+Route::get('/signin',  [
+                'uses' => 'AuthController@getSignin',
+                'middleware' => 'guest'
+]);
+
+Route::post('/signin',  [
+                'uses' => 'AuthController@postSignin',
+                'middleware' => 'guest'
+]);
+Route::get('/signout',  'AuthController@getSignout');
