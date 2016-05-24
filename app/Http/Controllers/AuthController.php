@@ -34,6 +34,7 @@ class AuthController extends Controller
 
     public function getSignin()
     {
+
         return view('auth.signin');
     }
 
@@ -47,6 +48,7 @@ class AuthController extends Controller
         if (!Auth::attempt($request->only(['email', 'password']), $request->has('remember'))) {
             return redirect()->back()->with('info', 'Could not sign you');
         }
+
 
         return redirect('/')->with('info', 'You are signed in');
     }

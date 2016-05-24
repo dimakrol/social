@@ -13,48 +13,63 @@
 /**
  * Home
  */
-Route::get('/', 'HomeController@index');
-/**
- * Authentication
- */
-Route::get('/signup',  [
-                'uses' => 'AuthController@getSignup',
-                'middleware' => 'guest'
-]);
 
-Route::post('/signup',  [
-                'uses' => 'AuthController@postSignup',
-                'middleware' => 'guest'
-]);
+Route::group(['middleware' => 'web'], function () {
+    Route::get('/', 'HomeController@index');
+    /**
+     * Authentication
+     */
+    Route::get('/signup',  [
+        'uses' => 'AuthController@getSignup',
+        'middleware' => 'guest'
+    ]);
 
-Route::get('/signin',  [
-                'uses' => 'AuthController@getSignin',
-                'middleware' => 'guest'
-]);
+    Route::post('/signup',  [
+        'uses' => 'AuthController@postSignup',
+        'middleware' => 'guest'
+    ]);
 
-Route::post('/signin',  [
-                'uses' => 'AuthController@postSignin',
-                'middleware' => 'guest'
-]);
-Route::get('/signout',  'AuthController@getSignout');
+    Route::get('/signin',  [
+        'uses' => 'AuthController@getSignin',
+        'middleware' => 'guest'
+    ]);
 
-/**
- * Search
- */
+    Route::post('/signin',  [
+        'uses' => 'AuthController@postSignin',
+        'middleware' => 'guest'
+    ]);
+    Route::get('/signout',  'AuthController@getSignout');
 
-Route::get('/search',  'SearchController@getResults');
+    /**
+     * Search
+     */
 
-/**
- * User profile
- */
-Route::get('/user/{username}', 'ProfileController@getProfile');
+    Route::get('/search',  'SearchController@getResults');
 
-Route::get('/profile/edit',  [
-    'uses' => 'ProfileController@getEdit',
-    'middleware' => 'auth'
-]);
+    /**
+     * User profile
+     */
+    Route::get('/user/{username}', 'ProfileController@getProfile');
 
-Route::post('/profile/edit',  [
-    'uses' => 'ProfileController@postEdit',
-    'middleware' => 'auth'
-]);
+    Route::get('/profile/edit',  [
+        'uses' => 'ProfileController@getEdit',
+        'middleware' => 'auth'
+    ]);
+
+    Route::post('/profile/edit',  [
+        'uses' => 'ProfileController@postEdit',
+        'middleware' => 'auth'
+    ]);
+
+    /**
+     * Friends
+     */
+
+    Route::get('/friends', [
+        'uses' => 'FriendController@getIndex',
+        'middleware' => 'auth'
+    ]);
+
+});
+
+
