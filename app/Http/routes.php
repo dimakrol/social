@@ -14,7 +14,7 @@
  * Home
  */
 
-Route::group(['middleware' => 'web'], function () {
+
     Route::get('/', 'HomeController@index');
     /**
      * Authentication
@@ -70,6 +70,14 @@ Route::group(['middleware' => 'web'], function () {
         'middleware' => 'auth'
     ]);
 
-});
+    Route::get('/friends/add/{username}', [
+        'uses' => 'FriendController@getAdd',
+        'middleware' => 'auth'
+    ]);
+
+    Route::get('/friends/accept/{username}', [
+        'uses' => 'FriendController@getAccept',
+        'middleware' => 'auth'
+    ]);
 
 
