@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\User;
+use App\Models\Status;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -18,7 +19,11 @@ class ProfileController extends Controller
             abort(404);
         }
 
-        return view('profile.index', ['user' => $user]);
+        $statuses = $user->statuses()->notReply()->get();
+
+        return view('profile.index', ['user' => $user,
+                                      'statuses' => $statuses,
+                                      'authUserIsFriend' => Auth::user()->isFriendsWith($user)]);
     }
 
     public function getEdit()
