@@ -80,4 +80,13 @@
         'middleware' => 'auth'
     ]);
 
+/**
+ * Statuses
+ */
+
+    Route::post('/status', [
+        'uses' => 'StatusController@postStatus',
+        'middleware' => 'auth'
+    ]);
+
 
