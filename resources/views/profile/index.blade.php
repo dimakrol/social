@@ -19,8 +19,11 @@
                             <p>{{ $status->body }}</p>
                             <ul class="list-inline">
                                 <li>{{ $status->created_at->diffForhumans() }}</li>
-                                <li><a href="#">Like</a></li>
-                                <li>10 likes</li>
+                                @if($status->user->id !== Auth::user()->id)
+                                    <li><a href="{{ url('/status/' . $status->id . '/like') }}">Like</a></li>
+                                @endif
+                                <li>{{ $status->likes->count() }} {{ str_plural('like', $status->likes->count()) }}</li>
+
                             </ul>
 
                             @foreach($status->replies as $reply)
@@ -33,8 +36,11 @@
                                         <p>{{ $reply->body }}</p>
                                         <ul class="list-inline">
                                             <li>{{ $reply->created_at->diffForhumans() }}</li>
-                                            <li><a href="#">Like</a></li>
-                                            <li>4 likes</li>
+                                            @if($reply->user->id !== Auth::user()->id)
+                                                <li><a href="{{ url('/status/' . $reply->id . '/like') }}">Like</a></li>
+                                            @endif
+                                            <li>{{ $reply->likes->count() }} {{ str_plural('like', $reply->likes->count()) }}</li>
+
                                         </ul>
                                     </div>
                                 </div>
@@ -69,6 +75,14 @@
                 <a href="{{ url('/friends/accept/' . $user->username) }}" class="btn btn-primary">Accept friend request</a>
             @elseif (Auth::user()->isFriendsWith($user))
                 <p>You and {{ $user->getNameOrUsername() }} are friends</p>
+
+                <form action="{{ url('/friends/delete/' . $user->username) }}" method="post">
+                    <input type="submit" value="Delete friend" class="btn btn-primary">
+                    {{ csrf_field() }}
+
+                </form>
+                
+                
             @elseif(Auth::user()->id !== $user->id)
                 <a href="{{ url('friends/add/'.$user->username) }}" class="btn btn-primary">Add as friend</a>
             @endif

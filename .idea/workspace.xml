@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d1cd43-7506-4cf2-b95b-5374ff28f877" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/FriendController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/FriendController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/StatusController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/StatusController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/Status.php" afterPath="$PROJECT_DIR$/app/Models/Status.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Models/User.php" afterPath="$PROJECT_DIR$/app/Models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_05_24_083946_create_friends_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_05_24_083946_create_friends_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_05_24_140444_create_statuses_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_05_24_140444_create_statuses_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_05_24_164956_create_likeable_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_05_24_164956_create_likeable_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/signin.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/signin.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/auth/signup.blade.php" afterPath="$PROJECT_DIR$/resources/views/auth/signup.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/friends/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/friends/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/profile/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/profile/edit.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/profile/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/profile/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/search/results.blade.php" afterPath="$PROJECT_DIR$/resources/views/search/results.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/timeline/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/timeline/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/user/partials/userblock.blade.php" afterPath="$PROJECT_DIR$/resources/views/user/partials/userblock.blade.php" />
     </list>
     <ignored path="social.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,18 +49,84 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/profile/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="42" column="92" selection-start-line="42" selection-start-column="92" selection-end-line="42" selection-end-column="92" />
+            <state relative-caret-position="486">
+              <caret line="78" column="73" selection-start-line="78" selection-start-column="73" selection-end-line="78" selection-end-column="73" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016_05_24_164956_create_likeable_table.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_24_164956_create_likeable_table.php">
+      <file leaf-file-name="StatusController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StatusController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state relative-caret-position="551">
+              <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="40" />
+              <folding>
+                <element signature="e#40#62#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="82" column="42" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FriendController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FriendController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="807">
+              <caret line="79" column="63" selection-start-line="79" selection-start-column="63" selection-end-line="79" selection-end-column="63" />
+              <folding>
+                <element signature="e#40#60#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Like.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Like.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="106" column="32" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="32" />
+              <folding>
+                <element signature="e#30#85#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/timeline/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Status.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Models/Status.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -81,17 +167,18 @@
         <option value="$PROJECT_DIR$/resources/views/templates/partials/navigation.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/friends/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/friends/test.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/FriendController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_24_140444_create_statuses_table.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/StatusController.php" />
-        <option value="$PROJECT_DIR$/app/Models/Status.php" />
-        <option value="$PROJECT_DIR$/app/Models/User.php" />
-        <option value="$PROJECT_DIR$/resources/views/timeline/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" />
-        <option value="$PROJECT_DIR$/resources/views/profile/index.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_24_164956_create_likeable_table.php" />
+        <option value="$PROJECT_DIR$/app/Models/Status.php" />
+        <option value="$PROJECT_DIR$/app/Models/Like.php" />
+        <option value="$PROJECT_DIR$/resources/views/timeline/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/StatusController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/profile/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/User.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/FriendController.php" />
       </list>
     </option>
   </component>
@@ -109,9 +196,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="1985" />
-    <option name="y" value="24" />
-    <option name="width" value="927" />
-    <option name="height" value="1056" />
+    <option name="y" value="52" />
+    <option name="width" value="1082" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -138,7 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -361,13 +447,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="ro&#9;FILE&#9;file:///var/www/social.com/social/app/Http/routes.php&#10;rou&#9;FILE&#9;file:///var/www/social.com/social/app/Http/routes.php&#10;fri&#9;FILE&#9;file:///var/www/social.com/social/app/Http/Controllers/FriendController.php&#10;use&#9;FILE&#9;file:///var/www/social.com/social/app/Models/User.php&#10;frien&#9;FILE&#9;file:///var/www/social.com/social/app/Http/Controllers/FriendController.php&#10;Use&#9;FILE&#9;file:///var/www/social.com/social/app/Models/User.php&#10;Frien&#9;FILE&#9;file:///var/www/social.com/social/app/Http/Controllers/FriendController.php&#10;us&#9;FILE&#9;file:///var/www/social.com/social/app/Models/User.php&#10;route&#9;FILE&#9;file:///var/www/social.com/social/app/Http/routes.php&#10;user&#9;FILE&#9;file:///var/www/social.com/social/app/Models/User.php&#10;frie&#9;FILE&#9;file:///var/www/social.com/social/app/Http/Controllers/FriendController.php&#10;Us&#9;FILE&#9;file:///var/www/social.com/social/app/Models/User.php&#10;profi&#9;FILE&#9;file:///var/www/social.com/social/app/Http/Controllers/ProfileController.php&#10;User&#9;FILE&#9;file:///var/www/social.com/social/app/Models/User.php&#10;ILL&#9;null&#9;null&#10;rout&#9;FILE&#9;file:///var/www/social.com/social/app/Http/routes.php&#10;RO&#9;FILE&#9;file:///var/www/social.com/social/app/Http/routes.php&#10;PRO&#9;FILE&#9;file:///var/www/social.com/social/app/Http/Controllers/ProfileController.php&#10;Auth&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///var/www/social.com/social/app/Http/Controllers/FriendController.php&#10;user&#9;FILE&#9;file:///var/www/social.com/social/app/Models/User.php&#10;Sta&#9;FILE&#9;file:///var/www/social.com/social/app/Http/Controllers/StatusController.php&#10;Use&#9;FILE&#9;file:///var/www/social.com/social/app/Models/User.php&#10;ro&#9;FILE&#9;file:///var/www/social.com/social/app/Http/routes.php&#10;rou&#9;FILE&#9;file:///var/www/social.com/social/app/Http/routes.php&#10;li&#9;FILE&#9;file:///var/www/social.com/social/app/Models/Like.php&#10;fri&#9;FILE&#9;file:///var/www/social.com/social/app/Http/Controllers/FriendController.php&#10;use&#9;FILE&#9;file:///var/www/social.com/social/app/Models/User.php&#10;frien&#9;FILE&#9;file:///var/www/social.com/social/app/Http/Controllers/FriendController.php&#10;Frien&#9;FILE&#9;file:///var/www/social.com/social/app/Http/Controllers/FriendController.php&#10;us&#9;FILE&#9;file:///var/www/social.com/social/app/Models/User.php&#10;route&#9;FILE&#9;file:///var/www/social.com/social/app/Http/routes.php&#10;frie&#9;FILE&#9;file:///var/www/social.com/social/app/Http/Controllers/FriendController.php&#10;Us&#9;FILE&#9;file:///var/www/social.com/social/app/Models/User.php&#10;profi&#9;FILE&#9;file:///var/www/social.com/social/app/Http/Controllers/ProfileController.php&#10;User&#9;FILE&#9;file:///var/www/social.com/social/app/Models/User.php&#10;ILL&#9;null&#9;null&#10;rout&#9;FILE&#9;file:///var/www/social.com/social/app/Http/routes.php&#10;RO&#9;FILE&#9;file:///var/www/social.com/social/app/Http/routes.php&#10;PRO&#9;FILE&#9;file:///var/www/social.com/social/app/Http/Controllers/ProfileController.php&#10;Auth&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -431,25 +518,26 @@
       <workItem from="1463750660203" duration="1338000" />
       <workItem from="1463755786526" duration="1315000" />
       <workItem from="1463762337802" duration="752000" />
-      <workItem from="1464076209971" duration="29993000" />
+      <workItem from="1464076209971" duration="30096000" />
+      <workItem from="1464163245759" duration="7196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71522000" />
+    <option name="totallyTimeSpent" value="78821000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="24" width="927" height="1056" extended-state="4" />
+    <frame x="1985" y="52" width="1082" height="1028" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38819525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28088802" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32618025" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36158797" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -472,9 +560,9 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29077253" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36158797" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30898875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33409873" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837528" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -502,14 +590,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -712,7 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="21" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -720,7 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -744,33 +821,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/friends/test.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/friends/test.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/friends/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FriendController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-          <folding>
-            <element signature="e#40#60#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,21 +847,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="91" column="41" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-          <folding>
-            <element signature="e#39#61#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,23 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Status.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="54" column="28" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -842,45 +871,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/timeline/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_24_164956_create_likeable_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/timeline/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Status.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Like.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="82" column="42" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profile/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="78" column="73" selection-start-line="78" selection-start-column="73" selection-end-line="78" selection-end-column="73" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StatusController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="51" column="4" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+        <state relative-caret-position="551">
+          <caret line="64" column="12" selection-start-line="64" selection-start-column="12" selection-end-line="64" selection-end-column="40" />
           <folding>
             <element signature="e#40#62#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/profile/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="42" column="92" selection-start-line="42" selection-start-column="92" selection-end-line="42" selection-end-column="92" />
-          <folding />
+        <state relative-caret-position="461">
+          <caret line="106" column="32" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="32" />
+          <folding>
+            <element signature="e#30#85#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_05_24_164956_create_likeable_table.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FriendController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="807">
+          <caret line="79" column="63" selection-start-line="79" selection-start-column="63" selection-end-line="79" selection-end-column="63" />
+          <folding>
+            <element signature="e#40#60#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

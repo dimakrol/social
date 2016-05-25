@@ -80,6 +80,11 @@
         'middleware' => 'auth'
     ]);
 
+    Route::post('/friends/delete/{username}', [
+        'uses' => 'FriendController@postDelete',
+        'middleware' => 'auth'
+    ]);
+
 /**
  * Statuses
  */
@@ -94,4 +99,11 @@
         'middleware' => 'auth'
     ]);
 
-
+    //
+/**
+ * Like ability
+ */
+    Route::get('/status/{statusId}/like', [
+        'uses' => 'StatusController@getLike',
+        'middleware' => 'auth'
+    ]);
